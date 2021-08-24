@@ -52,7 +52,7 @@
       </BuildableProductRunnable>
       <CommandLineArguments>
          <CommandLineArgument
-            argument = "/Users/amirrimal/Documents/CAMetadata/audio.mp3 "
+            argument = "261.626"
             isEnabled = "YES">
          </CommandLineArgument>
       </CommandLineArguments>
