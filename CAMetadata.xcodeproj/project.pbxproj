@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		205E636C26D4E4F90063D2EE /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 205E636B26D4E4F90063D2EE /* main.m */; };
 		205E637426D4EE110063D2EE /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 205E637326D4EE110063D2EE /* AudioToolbox.framework */; };
+		2065CB7426D627B700AA211D /* formatTester.m in Sources */ = {isa = PBXBuildFile; fileRef = 2065CB7326D627B700AA211D /* formatTester.m */; };
 		2088E10E26D504BF000DE1FA /* getFileInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 2088E10D26D504BF000DE1FA /* getFileInfo.m */; };
 		2088E11026D50CD5000DE1FA /* toneGenerator.m in Sources */ = {isa = PBXBuildFile; fileRef = 2088E10F26D50CD5000DE1FA /* toneGenerator.m */; };
 /* End PBXBuildFile section */
@@ -29,6 +30,7 @@
 		205E636826D4E4F90063D2EE /* CAMetadata */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = CAMetadata; sourceTree = BUILT_PRODUCTS_DIR; };
 		205E636B26D4E4F90063D2EE /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		205E637326D4EE110063D2EE /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		2065CB7326D627B700AA211D /* formatTester.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = formatTester.m; sourceTree = "<group>"; };
 		2088E10D26D504BF000DE1FA /* getFileInfo.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = getFileInfo.m; sourceTree = "<group>"; };
 		2088E10F26D50CD5000DE1FA /* toneGenerator.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = toneGenerator.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -67,6 +69,7 @@
 			children = (
 				205E636B26D4E4F90063D2EE /* main.m */,
 				2088E10F26D50CD5000DE1FA /* toneGenerator.m */,
+				2065CB7326D627B700AA211D /* formatTester.m */,
 				2088E10D26D504BF000DE1FA /* getFileInfo.m */,
 			);
 			path = CAMetadata;
@@ -137,6 +140,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				2088E10E26D504BF000DE1FA /* getFileInfo.m in Sources */,
+				2065CB7426D627B700AA211D /* formatTester.m in Sources */,
 				205E636C26D4E4F90063D2EE /* main.m in Sources */,
 				2088E11026D50CD5000DE1FA /* toneGenerator.m in Sources */,
 			);

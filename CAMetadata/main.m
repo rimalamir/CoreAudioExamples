@@ -10,13 +10,14 @@
 #import <AudioToolbox/AudioFile.h>
 #import "getFileInfo.m"
 #import "toneGenerator.m"
+#import "formatTester.m"
 
 //Audio location is passed from scheme
 int main(int argc, const char * argv[]) {
     @autoreleasepool {
-        // insert code here...
-//        getMediaInfo(argc, argv);
-        generateTone(argc, argv);
+        //getMediaInfo(argc, argv);
+        //generateTone(argc, argv);
+        formatTester(argc, argv);
     }
 }
 
