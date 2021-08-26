@@ -10,7 +10,7 @@
 #import <AudioToolbox/AudioFile.h>
 
 
-static int formatTester(int argc, const char **argv) {
+/*static int formatTester(int argc, const char **argv) {
     
     AudioFileTypeAndFormatID fileTypeAndFormat;
     fileTypeAndFormat.mFileType = kAudioFileAIFFType;
@@ -41,3 +41,4 @@ static int formatTester(int argc, const char **argv) {
     return 0;
 }
 
+*/

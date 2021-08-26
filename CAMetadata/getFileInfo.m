@@ -10,7 +10,7 @@
 #import <AudioToolbox/AudioFile.h>
 
 //Argument: /Users/amirrimal/Documents/CAMetadata/audio.mp3 
-static int getMediaInfo(int argc, const char **argv) {
+/*static int getMediaInfo(int argc, const char **argv) {
     if (argc < 2) {
         printf("Usage: CAMetadata /full/path/to/audiofile\n");
         return  -1;
@@ -44,3 +44,4 @@ static int getMediaInfo(int argc, const char **argv) {
     
     return  0;
 }
+*/

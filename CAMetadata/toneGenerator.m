@@ -8,6 +8,7 @@
 #import <Foundation/Foundation.h>
 #import <CoreAudio/CoreAudio.h>
 #import <AudioToolbox/AudioFile.h>
+#import "audioQueueRecording.m"
 
 #define SAMPLE_RATE 44100
 #define DURATION 5.0
@@ -16,7 +17,7 @@
 //#define FILENAME_FORMAT @"%0.3f-saw.aif"
 #define FILENAME_FORMAT @"%0.3f-sine.aif"
 
-static void sawWave(int i, SInt16 *sample, double waveLengthInSamples) {
+/*static void sawWave(int i, SInt16 *sample, double waveLengthInSamples) {
     *sample = CFSwapInt16HostToBig(((i / waveLengthInSamples) * SHRT_MAX * 2) - SHRT_MAX);
 }
 
@@ -94,11 +95,13 @@ static int generateTone(int argc, const char **argv) {
         
     }
     
+//    CheckError(AudioFileClose(audioFile), "Couldn't close audio file");
     audioErr = AudioFileClose(audioFile);
-    
+
     assert(audioErr == noErr);
     NSLog(@"Wrote %ld samples", sampleCount);
     
     
     return 0;
 }
+*/
